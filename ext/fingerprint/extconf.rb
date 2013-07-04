@@ -4,7 +4,7 @@ def bits
 	  ['bits'].pack('p').size * 8
 end
 
-library_dir = File.join(File.dirname(__FILE__), '..', '..', 'lib', 'u_are_u', "lib#{bits}")
+library_dir = File.realpath(File.join(File.dirname(__FILE__), '..', '..', 'lib', 'u_are_u', "lib#{bits}"))
 
 dir_config('', 'compare', 'compare')
 dir_config('', 'u_are_u', 'u_are_u')
