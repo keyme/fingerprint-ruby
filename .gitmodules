@@ -1,0 +1,3 @@
+[submodule "ext/fingerprint/compare"]
+	path = ext/fingerprint/compare
+	url = https://github.com/keyme/fingerprint-compare.git

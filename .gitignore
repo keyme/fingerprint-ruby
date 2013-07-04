@@ -1,0 +1,9 @@
+*.swp
+*.log
+
+fingerprint-*.gem
+
+ext/fingerprint/Makefile
+ext/fingerprint/fingerprint.o
+ext/fingerprint/fingerprint.so
+
