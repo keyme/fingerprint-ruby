@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-	s.name        = 'fingerprint'
-	s.version     = '0.0.2'
-	s.date        = '2013-07-04'
+	s.name        = 'fingerprint-ruby'
+	s.version     = '0.0.3'
+	s.date        = '2014-05-14'
 	s.summary     = 'U.are.U fingerprint scanner methods.'
 	s.description = 'Load and verify fingerprints scanned using a U.are.U fingerprint scanner.'
 	s.authors     = ['Zachary Salzbank']
-	s.email       = 'zach@keyme.net'
+	s.email       = 'zach@key.me'
 
 	s.files       = Dir.glob('lib/*.{rb}') +
 	                Dir.glob('lib/u_are_u/**/*') +
